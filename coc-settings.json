@@ -1,0 +1,79 @@
+{
+  "coc.preferences.formatOnSave": true,
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
+  "diagnostic.infoSign": "",
+  "diagnostic.hintSign": "",
+  "suggest.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
+  "diagnostic.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
+  "signature.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
+  "hover.floatConfig": {
+    "border": true,
+    "rounded": true
+  },
+  "codeLens.enable": false,
+  "yaml.format.enable": true,
+  "yaml.schemaStore.enable": true,
+  "yaml.schemaStore.url": "https://www.schemastore.org/api/json/catalog.json",
+  "sql.database": "postgresql",
+  "go.enable": true,
+  "go.goplsOptions": {
+    "deepCompletion": true,
+    "completeUnimported": true,
+    "usePlaceholders": true,
+    "staticcheck": false,
+    "hoverKind": "SynopsisDocumentation"
+  },
+  "suggest.autoTrigger": "always",
+  "suggest.completionItemKindLabels": {
+    "text": "",
+    "function": "",
+    "keyword": "",
+    "variable": "",
+    "value": "",
+    "operator": "",
+    "reference": "",
+    "constant": "",
+    "method": "",
+    "struct": "",
+    "class": "ﴯ",
+    "interface": "",
+    "enum": "",
+    "enumMember": "",
+    "module": "",
+    "color": "",
+    "property": "ﰠ",
+    "field": "",
+    "unit": "",
+    "event": "",
+    "file": "",
+    "folder": "",
+    "snippet": "",
+    "typeParameter": "",
+    "default": "⌘"
+  },
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    },
+    "terraform": {
+      "command": "terraform-ls",
+      "args": ["serve"],
+      "filetypes": ["terraform", "tf"],
+      "initializationOptions": {},
+      "settings": {}
+    }
+  }
+}
