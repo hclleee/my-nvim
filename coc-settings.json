@@ -6,19 +6,23 @@
   "diagnostic.hintSign": "",
   "suggest.floatConfig": {
     "border": true,
-    "rounded": true
+    "rounded": true,
+    "highlight": "CocFloating"
   },
   "diagnostic.floatConfig": {
     "border": true,
-    "rounded": true
+    "rounded": true,
+    "highlight": "CocFloating"
   },
   "signature.floatConfig": {
     "border": true,
-    "rounded": true
+    "rounded": true,
+    "highlight": "CocFloating"
   },
   "hover.floatConfig": {
     "border": true,
-    "rounded": true
+    "rounded": true,
+    "highlight": "CocFloating"
   },
   "codeLens.enable": false,
   "yaml.format.enable": true,
