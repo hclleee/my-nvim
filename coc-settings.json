@@ -65,6 +65,7 @@
     "typeParameter": "",
     "default": "⌘"
   },
+  "flutter.fvm.enabled": true,
   "languageserver": {
     "bash": {
       "command": "bash-language-server",

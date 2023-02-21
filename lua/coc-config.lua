@@ -1,10 +1,5 @@
 local g = vim.g
 
-local utils = require('utils')
-local map_key = utils.map_key
-local nmap_key = utils.nmap_key
-local imap_key = utils.imap_key
-
 g.coc_global_extensions = {
   'coc-css',
   'coc-html',
@@ -17,8 +12,9 @@ g.coc_global_extensions = {
   'coc-vetur',
   'coc-java',
   'coc-pyright',
-  'coc-flutter',
+  'coc-flutter-tools',
   'coc-tsserver',
   'coc-word',
   'coc-tabnine',
+  'coc-highlight',
 }

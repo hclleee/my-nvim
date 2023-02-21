@@ -30,9 +30,9 @@ return require('packer').startup({function(use)
   use {
     'neoclide/coc.nvim',
     branch = 'release',
-    requires = { 
-      {'josa42/coc-go', run = 'yarn install --frozen-lockfile'},
-      {'josa42/coc-lua', run = 'yarn install --frozen-lockfile'},
+    requires = {
+      { 'josa42/coc-go', run = 'yarn install --frozen-lockfile' },
+      { 'josa42/coc-lua', run = 'yarn install --frozen-lockfile' },
       { 'fannheyward/telescope-coc.nvim' },
     }
   }
