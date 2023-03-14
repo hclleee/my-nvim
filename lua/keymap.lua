@@ -20,10 +20,13 @@ map_key("n", "tc", "<cmd>Telescope coc<cr>", {})
 nmap_key("td", "<cmd>Telescope coc diagnostics<cr>", {})
 nmap_key("gr", "<cmd>Telescope coc references<cr>", {})
 nmap_key("gi", "<cmd>Telescope coc implementations<cr>", {})
-
-nmap_key("gd", "<Plug>(coc-definition)", {})
-nmap_key("gy", "<Plug>(coc-type-definition)", {})
+nmap_key("gd", "<cmd>Telescope coc definitions<cr>", {})
+nmap_key("gt", "<cmd>Telescope coc type_definitions<cr>", {})
+nmap_key("ds", "<cmd>Telescope coc document_symbols<cr>", {})
 nmap_key("rn", "<Plug>(coc-rename)", { silent = true })
+
+-- nmap_key("gd", "<Plug>(coc-definition)", {})
+-- nmap_key("gt", "<Plug>(coc-type-definition)", {})
 
 -- Autocomplete
 function _G.check_back_space()

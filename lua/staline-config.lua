@@ -15,11 +15,11 @@ require('staline').setup({
     },
   },
   mode_colors = {
-    n = "#EBBCBA",
-    i = "#C4A7E7",
-    c = "#9CCFD8",
-    v = "#F6C177",
-    V = "#F6C177"
+    n = "#D3C6AA",
+    i = "#E67E80",
+    c = "#83C092",
+    v = "#D699B6",
+    V = "#D699B6",
   },
   defaults = {
     true_colors = true,

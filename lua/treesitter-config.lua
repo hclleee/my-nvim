@@ -1,5 +1,5 @@
 require('nvim-treesitter.configs').setup({
-  ensure_installed = { 
+  ensure_installed = {
     'go', 'gomod', 'dart',
     'java', 'scala', 'sql',
     'python', 'lua', 'vim',
@@ -8,7 +8,7 @@ require('nvim-treesitter.configs').setup({
     'yaml', 'json', 'toml', 'hcl', 'markdown',
   },
   context_commentstring = {
-    enable = true
+    enable = true,
   },
   highlight = {
     enable = true,
@@ -16,6 +16,7 @@ require('nvim-treesitter.configs').setup({
     additional_vim_regex_highlighting = false,
   },
   indent = {
-    enable = true
+    enable = true,
+    disable = { 'lua', 'dart', 'go' },
   }
 })

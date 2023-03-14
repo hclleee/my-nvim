@@ -1,7 +1,7 @@
 require('indent_blankline').setup({
 --  buftype_exclude = {"terminal"},
 --  filetype_exclude = {"dashboard", "NvimTree", "packer", "lsp-installer"},
-  use_treesitter = true,
+--  use_treesitter = true,
   show_first_indent_level = false,
   show_current_context = true,
   context_patterns = {

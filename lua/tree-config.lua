@@ -13,10 +13,11 @@ require('nvim-tree').setup({
   },
 })
 
--- cmd([[
--- augroup AutoOpenNvimTree
---   autocmd!
---   autocmd BufEnter * if isdirectory(expand('<afile>:p')) | NvimTreeOpen | endif
--- augroup END
--- ]])
--- 
+cmd([[
+augroup AutoOpenNvimTree
+  autocmd!
+  autocmd BufEnter * if isdirectory(expand('<afile>:p')) | NvimTreeOpen | endif
+augroup END
+autocmd Colorscheme * highlight NvimTreeNormal guibg=#2D353B guifg=#2D353B"
+]])
+

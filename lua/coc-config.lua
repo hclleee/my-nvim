@@ -10,11 +10,13 @@ g.coc_global_extensions = {
   'coc-yaml',
   'coc-json',
   'coc-vetur',
-  'coc-java',
   'coc-pyright',
   'coc-flutter-tools',
   'coc-tsserver',
   'coc-word',
   'coc-tabnine',
   'coc-highlight',
+  'coc-sh',
 }
+
+-- 'coc-java',

@@ -8,6 +8,7 @@ g.python_host_prog = '/usr/bin/python'
 g.python3_host_prog = '/opt/homebrew/bin/python3'
 g.python_host_skip_check = 1
 g.python3_host_skip_check = 1
+g.autochdir = true
 
 set.shell = "/bin/zsh"
 set.pyxversion = 3
