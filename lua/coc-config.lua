@@ -17,6 +17,5 @@ g.coc_global_extensions = {
   'coc-tabnine',
   'coc-highlight',
   'coc-sh',
+  'coc-go',
 }
-
--- 'coc-java',

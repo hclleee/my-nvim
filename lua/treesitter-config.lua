@@ -1,8 +1,8 @@
 require('nvim-treesitter.configs').setup({
   ensure_installed = {
     'go', 'gomod', 'dart',
-    'java', 'scala', 'sql',
-    'python', 'lua', 'vim',
+    'java', 'sql',
+    'python', 'lua', 'vim', 'vimdoc', 'query',
     'javascript', 'typescript',
     'vue', 'css', 'html',
     'yaml', 'json', 'toml', 'hcl', 'markdown',

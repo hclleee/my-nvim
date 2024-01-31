@@ -60,8 +60,8 @@ require('telescope').setup({
   },
   extensions = {
     coc = {
-        -- theme = 'ivy',
-        prefer_locations = true, -- always use Telescope locations to preview definitions/declarations/implementations etc
+      -- theme = 'ivy',
+      prefer_locations = true, -- always use Telescope locations to preview definitions/declarations/implementations etc
     }
   },
 })

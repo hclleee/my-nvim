@@ -29,6 +29,7 @@
   "yaml.schemaStore.enable": true,
   "yaml.schemaStore.url": "https://www.schemastore.org/api/json/catalog.json",
   "sql.database": "postgresql",
+  "flutter.fvm.enabled": true,
   "go.enable": true,
   "go.goplsOptions": {
     "deepCompletion": true,
@@ -65,7 +66,6 @@
     "typeParameter": "",
     "default": "⌘"
   },
-  "flutter.fvm.enabled": true,
   "languageserver": {
     // "bash": {
     //   "command": "bash-language-server",
@@ -79,6 +79,16 @@
       "filetypes": ["terraform", "tf"],
       "initializationOptions": {},
       "settings": {}
+    },
+    "kotlin": {
+      "command": "kotlin-language-server",
+      "filetypes": ["kotlin"]
     }
-  }
+  },
+  "java.imports.gradle.wrapper.checksums": [
+    {
+      "sha256": "d3b261c2820e9e3d8d639ed084900f11f4a86050a8f83342ade7b6bc9b0d2bdd",
+      "allowed": true
+    }
+  ]
 }

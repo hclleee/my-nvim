@@ -3,7 +3,7 @@ local set = vim.opt
 
 g.loaded_perl_provider = 1
 g.loaded_python_provier = 0
-g.loaded_python3_provider = 0
+g.loaded_python3_provider = 1
 g.python_host_prog = '/usr/bin/python'
 g.python3_host_prog = '/opt/homebrew/bin/python3'
 g.python_host_skip_check = 1
